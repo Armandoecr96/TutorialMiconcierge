@@ -1,0 +1,15 @@
+  .information{
+    animation-duration: 1s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+      from {
+          color: rgb(0, 0, 0, .10);
+          margin-top: 56px;
+      }
+      to {
+          color: black;
+          margin-top: 22px;
+      }
+  }
