@@ -19,6 +19,10 @@ class App extends Component {
     this.setState({position: this.state.position - 1})
   }
 
+  returnVenue = () => {
+    this.setState({position: 2 })
+  }
+
   renderSwitch = (param) => {
     switch (param) {
       case 0:
@@ -29,7 +33,7 @@ class App extends Component {
         )
       case 1:
         return(
-          <div>
+          <div className='viewPage'>
              <div className='back views' onClick={this.decreasePosition}>
               <a>Button</a>
             </div>
@@ -44,7 +48,7 @@ class App extends Component {
         )
       case 2:
         return(
-          <div>
+          <div className='viewPage'>
             <div className='back views' onClick={this.decreasePosition}>
               <a>Button</a>
             </div>
@@ -59,7 +63,7 @@ class App extends Component {
         )
       case 3:
         return(
-          <div>
+          <div className='viewPage'>
             <div className='close views' onClick={this.decreasePosition}>
               <a>Button</a>
             </div>
@@ -67,7 +71,25 @@ class App extends Component {
               <a>Button</a>
             </div>
           </div>
-        )    
+        ) 
+      case 4: 
+        setTimeout(this.increasePosition, 3000);
+        break;
+      case 5:
+        return(
+          <div className='viewPage'>
+            <div className='closeModal views' onClick={this.returnVenue}>
+              <a>Button</a>
+            </div>
+            <div className='RegisterView views' onClick={this.increasePosition}>
+              <a>Button</a>
+            </div>
+          </div>
+        )
+      default:
+        return(
+          <div></div>
+        )
     }
   }
 

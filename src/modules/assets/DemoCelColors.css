@@ -19,7 +19,18 @@
     height: 403px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    animation-name: transition;
+    animation-duration: 1s;
 }
+
+@keyframes transition{
+    from{
+      opacity: 0.6;
+    }
+    to{
+        opacity: 1;
+    }
+  }
 
 .contentCel::-webkit-scrollbar {
     display: none;
@@ -27,7 +38,7 @@
 
 .reserPage {
     padding-top: 120px;
-    margin-top: 8px;
+    margin-top: 1px;
     margin-bottom: 6px;
 }
 
@@ -45,4 +56,9 @@
 
 .name {
     margin-top: 22px;
+}
+
+.sending{
+    width: 227px;
+    height: 30px;
 }
