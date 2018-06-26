@@ -5,8 +5,7 @@ class Text extends Component {
   render () {
     const prhases = [
       'Choose category Restaurants',
-      'Choose International Food subcategory',
-      'Click on restaurant Pure Beach',
+      'Click on restaurant Alux',
       'Click on book and fill in the data',
       'The venue will accept or reject the proposal',
       'Great! The venue has accepted',
