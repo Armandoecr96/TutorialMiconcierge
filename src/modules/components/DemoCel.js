@@ -7,6 +7,7 @@ import VenueScreen from '../assets/Views/VenueScreen.png'
 import ReservationScreen from '../assets/Views/ReservationFormScreen.jpg'
 import ReservationSending from '../assets/Views/Sending.png'
 import AceptedReservataion from '../assets/Views/AceptedReservation.png'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 class DemoCel extends Component {
   render () {
@@ -21,7 +22,8 @@ class DemoCel extends Component {
 
     return (
       <div className='cel' style={{background: `url(${nexus}) no-repeat center top`, backgroundSize: '100%'}}>
-        <div className='contentCel' style={{background: `url(${screens[this.props.position]}) no-repeat center top / 100%`}} >
+      
+        <div className={'contentCel' + ' ' + this.props.class} style={{background: `url(${screens[this.props.position]}) no-repeat center top / 100%`}} >
           {
             this.props.position === 3
               ? <div className='reserPage' style={{background: `url(${screens[this.props.position]}) no-repeat center top / 100%`}}>

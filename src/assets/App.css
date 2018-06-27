@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   background-color: aliceblue;
 }
 
@@ -34,7 +35,7 @@
 .mainView {
   width: 61px;
   height: 65px;
-  margin: -50px;
+  margin: -63px;
   margin-top: 28px;
 }
 
@@ -43,7 +44,7 @@
   height: 108px;
   margin: -39px;
   margin-top: -95px;
-  margin-left: 60px;
+  margin-left: 35px;
 }
 
 .venuePage {
@@ -51,7 +52,7 @@
   height: 42px;
   margin: -67px;
   margin-top: 124px;
-  margin-left: 58px;
+  margin-left: 34px;
 }
 
 .RegisterView {
@@ -59,15 +60,15 @@
   height: 28px;
   margin: -68px;
   margin-top: 167px;
-  margin-left: 71px;
+  margin-left: 48px;
 }
 
 .close {
   width: 20px;
   height: 28px;
   margin: -68px;
-  margin-top: -195px;
-  margin-left: 71px;
+  margin-top: -200px;
+  margin-left: 48px;
 }
 
 .back {
@@ -75,7 +76,7 @@
   height: 28px;
   margin: -68px;
   margin-top: -183px;
-  margin-left: 56px;
+  margin-left: 32px;
 }
 
 .backAndroid {
@@ -83,7 +84,7 @@
   height: 30px;
   margin: -68px;
   margin-top: 173px;
-  margin-left: 86px;
+  margin-left: 62px;
   background: rgb(255, 255, 255, .19);
 }
 
@@ -92,5 +93,5 @@
   height: 28px;
   margin: -68px;
   margin-top: 73px;
-  margin-left: 219px;
+  margin-left: 197px;
 }

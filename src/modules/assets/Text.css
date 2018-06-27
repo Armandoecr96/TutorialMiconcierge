@@ -1,6 +1,13 @@
-  .information{
-    animation-duration: 1s;
-    animation-name: slidein;
+  .information {
+      animation-duration: 1s;
+      animation-name: slidein;
+      text-align: center;
+  }
+
+  .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
   @keyframes slidein {

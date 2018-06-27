@@ -7,12 +7,14 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      position: 0
+      position: 0,
+      class: true
     }
   }
 
   increasePosition = () => {
     this.setState({position: this.state.position + 1})
+    this.setState({class: true})
   }
 
   decreasePosition = () =>{
@@ -108,6 +110,7 @@ class App extends Component {
           
           <DemoCelColors 
             position={this.state.position}
+            class={this.state.class}
           />
         </div>
       </div>

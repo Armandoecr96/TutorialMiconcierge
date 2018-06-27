@@ -5,7 +5,7 @@
 }
 
 .cel {
-    margin-left: 32px;
+    margin-left: 8px;
     max-width: 225px;
     padding: 16px;
     max-height: 100%;
@@ -19,18 +19,7 @@
     height: 403px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    animation-name: transition;
-    animation-duration: 1s;
 }
-
-@keyframes transition{
-    from{
-      opacity: 0.6;
-    }
-    to{
-        opacity: 1;
-    }
-  }
 
 .contentCel::-webkit-scrollbar {
     display: none;
@@ -58,7 +47,7 @@
     margin-top: 22px;
 }
 
-.sending{
+.sending {
     width: 227px;
     height: 30px;
 }
